@@ -1,0 +1,35 @@
+#principal{
+    width: 100%;
+    height: 50vh;
+    border:1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.splide {
+    height: 50vh;
+    max-height: 50vh;
+    border: 1px solid red;
+}
+div.splide__track{
+    border:1px solid green;
+}
+ul.splide__list{
+    border:1px solid yellow;
+}
+li.splide__slide{
+    border:1px solid orange;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+iframe{
+    border:2px solid black;
+}
+.capa{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0,0,0,0.5);
+    position: absolute;
+}
